@@ -12,3 +12,8 @@ console.log(otherNumber.toPrecision(3));
 
 const hundreds = 1000000
 console.log(hundreds.toLocaleString('en-IN'));
+
+
+const min = 10
+const max=30
+console.log( Math.random() * (max-min+1) + min )
