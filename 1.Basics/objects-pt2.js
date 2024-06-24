@@ -58,12 +58,37 @@ const users=[
 
 
 
-console.log(users[0].email)
+// console.log(users[0].email)
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser))
-console.log(Object.entries(tinderUser))
-console.log(tinderUser.hasOwnProperty('isLogged'))
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser))
+// console.log(Object.entries(tinderUser))
+// console.log(tinderUser.hasOwnProperty('isLogged'))
+
+
+
+const course = {
+    coursename:"JS",
+    courseprize:"300",
+    courseteacher:"hitesh"
+}
+
+// course.courseprize
+
+
+// a better way to access
+
+
+const {courseteacher} = course
+
+const {courseteacher:instructor} = course
+
+
+// console.log(courseteacher)
+
+// console.log(instructor)
+
+
 
 
 
