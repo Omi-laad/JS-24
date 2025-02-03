@@ -45,12 +45,12 @@ myArray.push(7)
 
 
  myArray.unshift(9)
- console.log(myArray)
+//  console.log(myArray)
 
 
 myArray.shift(9)
 
-console.log(myArray);
+// console.log(myArray);
 
 // console.log(myArray.includes(3));
 
@@ -115,3 +115,16 @@ let score2=200
 let score3=300
 
 // console.log(Array.of(score1,score2,score3))
+
+
+
+function otp (length){
+    let otp = '';
+    for (let i = 0 ;i < length; i ++){
+        otp += Math.floor(Math.random()*10);
+    }
+    return otp;
+}
+
+
+console.log(otp(4));
